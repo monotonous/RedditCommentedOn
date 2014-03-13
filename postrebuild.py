@@ -54,7 +54,7 @@ def getComments(r, userName):
 if __name__ == "__main__":
     if len(sys.argv) < 2: 
         print "User name missing"
-        print "e.g.\npython postrebuild.py timbl"
+        print "e.g.\npython postrebuild.py GovSchwarzenegger"
         sys.exit(1)
     
     r = praw.Reddit(user_agent="comment_restore_bot")
